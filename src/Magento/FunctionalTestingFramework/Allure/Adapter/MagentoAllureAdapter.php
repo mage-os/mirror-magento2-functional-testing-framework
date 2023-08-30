@@ -110,6 +110,8 @@ class MagentoAllureAdapter extends AllureCodeception
      */
     private function sanitizeGroupName($group)
     {
+        return $group;
+
         $suiteNames = array_keys(SuiteObjectHandler::getInstance()->getAllObjects());
         $exactMatch = in_array($group, $suiteNames);
 
