@@ -1,6 +1,11 @@
 Magento Functional Testing Framework Changelog
 ================================================
 
+3.12.3
+---------
+### Fixes
+* Locking php-webdriver/webdriver to ~1.12.0 to overcome webdriver related exception in old MFTF versions.
+
 3.12.2
 ---------
 ### Fixes
